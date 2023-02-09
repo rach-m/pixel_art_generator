@@ -5,7 +5,6 @@ import Home from "./components/Home/Home.js";
 
 function App() {
     const [image, setImage] = useState();
-    console.log(image);
     return (
         <div>
             <h1>Pixel Art Generator</h1>

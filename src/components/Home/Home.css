@@ -1,0 +1,19 @@
+label {
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+label > img {
+    max-height: 50px;
+    vertical-align: middle;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#imageSelect {
+    display: none;
+}
+
+form {
+    margin-bottom: 50px;
+}
