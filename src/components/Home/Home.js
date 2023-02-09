@@ -7,7 +7,7 @@ const Home = ({ setImage }) => {
             <form>
                 <label htmlFor='imageSelect'>
                     Select an Image:
-                    <img src='/upload.png'></img>
+                    <img alt='image upload icon' src='/upload.png'></img>
                 </label>
                 <input
                     name='imageSelect'
