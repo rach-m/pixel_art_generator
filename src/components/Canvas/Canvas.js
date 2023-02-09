@@ -61,7 +61,7 @@ function Canvas(props) {
 
     useEffect(() => {
         pixelate();
-    }, [pixelation, canvasState, pixelate]);
+    }, [pixelation, canvasState]);
 
     function pixelate() {
         const resultCanvas = resultRef.current;
